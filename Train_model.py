@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 # 2. Load dataset
-df = pd.read_csv("data\\data.csv")
+df = pd.read_csv("data.csv")
 
 # Delete/Drop unnecessary column (As 'id' does not affect the final_score)
 df = df.drop('id', axis=1)
