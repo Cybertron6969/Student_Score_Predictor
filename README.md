@@ -9,7 +9,7 @@ This project walks through the entire journey of taking raw, messy data and turn
 2. 📊 **Finding the Trends (Matplotlib):** Before making the computer guess anything, I created scatter plots to visually check if studying more *actually* led to better grades in this specific dataset.
 3. 🧠 **Teaching the AI (Scikit-Learn):** I used a technique called Multiple Linear Regression. Basically, I fed 80% of the student data to the computer and let it figure out the "secret mathematical formula" for a good grade.
 4. 📏 **Grading the AI (Evaluation):** I took the remaining 20% of the data (which the model had never seen) and gave the AI a "final exam." I measured how many points its guesses were off by using MAE and RMSE.
-5. 💾 **Saving the Brain (Joblib):** Once the model was smart enough, I saved it as a file (`Score_prediction_model.pkl`). Now, anyone can use it to predict a score instantly without having to retrain it from scratch!
+5. 💾 **Saving the Brain (Joblib):** Once the model was smart enough, I saved it as a file (`score_prediction_model.pkl`). Now, anyone can use it to predict a score instantly without having to retrain it from scratch!
 
 ## 🚀 How to Run This on Your Computer
 
