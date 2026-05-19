@@ -9,7 +9,7 @@ This project walks through the entire journey of taking raw, messy data and turn
 2. 📊 **Finding the Trends (Matplotlib):** Before making the computer guess anything, I created scatter plots to visually check if studying more *actually* led to better grades in this specific dataset.
 3. 🧠 **Teaching the AI (Scikit-Learn):** I used a technique called Multiple Linear Regression. Basically, I fed 80% of the student data to the computer and let it figure out the "secret mathematical formula" for a good grade.
 4. 📏 **Grading the AI (Evaluation):** I took the remaining 20% of the data (which the model had never seen) and gave the AI a "final exam." I measured how many points its guesses were off by using MAE and RMSE.
-5. 💾 **Saving the Brain (Joblib):** Once the model was smart enough, I saved it as a file (`student_model.pkl`). Now, anyone can use it to predict a score instantly without having to retrain it from scratch!
+5. 💾 **Saving the Brain (Joblib):** Once the model was smart enough, I saved it as a file (`Score_prediction_model.pkl`). Now, anyone can use it to predict a score instantly without having to retrain it from scratch!
 
 ## 🚀 How to Run This on Your Computer
 
@@ -19,7 +19,7 @@ Want to see what score the model predicts for you? Follow these steps:
 2. **Install the tools:** Open your terminal and install the required Python libraries by typing:
    `pip install -r requirements.txt`
 3. **Train the model:** Run `train_model.py`. This will clean the data, train the AI, and save the model to your folder.
-4. **Make a prediction:** Open `predict.py`, type in your own study habits, and run the script to see your predicted final score!
+4. **Make a prediction:** Open `test_model.py`, type in your own study habits, and run the script to see your predicted final score!
 
 ---
 **Created by:** Yug Patel | Roll No: B25CH1048
