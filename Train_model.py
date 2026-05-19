@@ -57,5 +57,5 @@ plt.grid(True, linestyle="--", alpha=0.5)
 plt.show()
 
 # 9. Save the trained model
-joblib.dump(model, 'Score_prediction_model.pkl')
+joblib.dump(model, 'score_prediction_model.pkl')
 print("Model Saved Successfully")

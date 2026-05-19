@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # 2. Load the saved model
-model = joblib.load("Score_prediction_model.pkl")
+model = joblib.load("score_prediction_model.pkl")
 
 # 3. Predict scores for new student
 # Ensure the columns exactly match the ones you used for training
